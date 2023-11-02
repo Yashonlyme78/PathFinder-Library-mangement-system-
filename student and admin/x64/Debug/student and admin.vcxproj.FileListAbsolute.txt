@@ -1,0 +1,26 @@
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\student and admin.vcxproj.AssemblyReference.cache
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.adminlogin.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.student or admin.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.studentlogin.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\student and admin.vcxproj.GenerateResource.cache
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.studentregister.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.Book_Reservation.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.Edit_Configuration.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.librarian_options1.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.Student_Options.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.View_Reservation.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.View_Seats.resources
+C:\Users\motia\Documents\student and admin\student and admin\x64\Debug\studentandadmin.tbookreserve.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\student and admin.vcxproj.AssemblyReference.cache
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.adminlogin.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.Book_Reservation.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.Edit_Configuration.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.librarian_options1.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.student or admin.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.studentlogin.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.studentregister.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.Student_Options.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.tbookreserve.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.View_Reservation.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\studentandadmin.View_Seats.resources
+C:\Users\Gaurav\Desktop\Repos\student and admin\student and admin\x64\Debug\student and admin.vcxproj.GenerateResource.cache

@@ -1,0 +1,15 @@
+﻿  MyForm.cpp
+C:\Users\motia\Documents\student and admin\student and admin\studentlogin.h(295,21): warning C4101: 'e': unreferenced local variable
+C:\Users\motia\Documents\student and admin\student and admin\Edit_Configuration.h(271,63): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\motia\Documents\student and admin\student and admin\Edit_Configuration.h(287,63): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\motia\Documents\student and admin\student and admin\adminlogin.h(292,21): warning C4101: 'e': unreferenced local variable
+  student or admin.cpp
+C:\Users\motia\Documents\student and admin\student and admin\studentlogin.h(295,21): warning C4101: 'e': unreferenced local variable
+C:\Users\motia\Documents\student and admin\student and admin\Edit_Configuration.h(271,63): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\motia\Documents\student and admin\student and admin\Edit_Configuration.h(287,63): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\motia\Documents\student and admin\student and admin\adminlogin.h(292,21): warning C4101: 'e': unreferenced local variable
+  studentlogin.cpp
+C:\Users\motia\Documents\student and admin\student and admin\studentlogin.h(295,21): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  adminlogin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  student and admin.vcxproj -> C:\Users\motia\Documents\student and admin\x64\Debug\student and admin.exe

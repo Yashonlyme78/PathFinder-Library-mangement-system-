@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{3AF96DE1-78C0-4947-B397-E53ADED381E3}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>studentandadmin</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adminlogin.cpp" />
+    <ClCompile Include="Book_Reservation.cpp" />
+    <ClCompile Include="Edit_Configuration.cpp" />
+    <ClCompile Include="finaldash.cpp" />
+    <ClCompile Include="librarian_options1.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="student or admin.cpp" />
+    <ClCompile Include="studentlogin.cpp" />
+    <ClCompile Include="studentregister.cpp" />
+    <ClCompile Include="Student_Options.cpp" />
+    <ClCompile Include="tbookreserve.cpp" />
+    <ClCompile Include="View_Reservation.cpp" />
+    <ClCompile Include="View_Seats.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="adminlogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Book_Reservation.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Edit_Configuration.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="finaldash.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="librarian_options1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="student or admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="student.h" />
+    <ClInclude Include="studentlogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="studentregister.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Student_Options.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="tbookreserve.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="View_Reservation.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="View_Seats.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Reservation.resx">
+      <DependentUpon>Book_Reservation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Configuration.resx">
+      <DependentUpon>Edit_Configuration.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="librarian_options1.resx">
+      <DependentUpon>librarian_options1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student or admin.resx">
+      <DependentUpon>student or admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentlogin.resx">
+      <DependentUpon>studentlogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentregister.resx">
+      <DependentUpon>studentregister.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Options.resx">
+      <DependentUpon>Student_Options.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbookreserve.resx">
+      <DependentUpon>tbookreserve.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Reservation.resx">
+      <DependentUpon>View_Reservation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Seats.resx">
+      <DependentUpon>View_Seats.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="student and admin.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Central-Library-1.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
